@@ -33,7 +33,7 @@ function ownedByLuke(pet) {
 }
 
 let lukesPets = pets.filter(ownedByLuke);
-// console.log(lukesPets);
+console.log(lukesPets);
 
 // 2 Use the Array.map function to create an array of all the names of the owners.
 
@@ -42,7 +42,7 @@ function getOwner(pet){
 }
 let owners = pets.map(getOwner);
 
-// console.log(owners);
+console.log(owners);
 
 // 3 Use the Array.find function to retrieve the pet owned by Shaggy
 function findShaggysPet(pet) {
